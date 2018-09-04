@@ -3,7 +3,7 @@ Sistema simples de monitoramento com alarme, desenvolvido em Assembly, para a pl
 
 ***
 * Descrição:<br>
-  - O sistema conta com um sensor de presença, buzzer, teclado 4x4 e display 16x2.
+  - O sistema conta com um sensor de presença, buzzer, teclado 3x4 e display 16x2.
   - Possui uma senha de 8 dígitos para sua validação, esta senha pode ser alterada a desejo do usuário e será salva na FLASH do MCU (Endereço definido no código).
   - Ao resetar o sistema com a tecla # pressionada, a senha default (00000000) é definida.
   - Quando o usuário digitar a senha incorretamente por 5 vezes, o sistema será travado e só será liberado após o reset.
